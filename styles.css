@@ -183,3 +183,13 @@ img{max-width:100%; height:auto; display:block}
   .section__title{font-size:34px}
   .title{font-size:38px}
 }
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand__logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
