@@ -216,34 +216,3 @@ img{max-width:100%; height:auto; display:block}
   padding-top: 80px;
   position: relative;
 }
-
-.section--hero{
-  position: relative;
-  padding-bottom: 40px; /* reduce space */
-}
-
-/* RED UPWARD GLOW */
-.section--hero::after{
-  content: "";
-  position: absolute;
-  bottom: -60px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 900px;
-  height: 300px;
-
-  background: radial-gradient(
-    ellipse at center,
-    rgba(200,29,29,0.4) 0%,
-    rgba(200,29,29,0.25) 35%,
-    rgba(200,29,29,0.12) 55%,
-    transparent 75%
-  );
-
-  filter: blur(80px);
-  pointer-events: none;
-}
-.hero__visual{
-  position: relative;
-  z-index: 2;
-}
