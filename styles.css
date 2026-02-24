@@ -212,13 +212,11 @@ img{max-width:100%; height:auto; display:block}
   position: relative;
   overflow: visible;      /* allow overlap */
 }
-
 .hero__visual{
   display:flex;
   align-items:center;
   justify-content:center;
 }
-
 .hero-graphic{
   position: relative;
   width: 100%;
@@ -226,24 +224,20 @@ img{max-width:100%; height:auto; display:block}
   margin-left: 28px;      /* a bit to the right */
   margin-bottom: -70px;   /* overlap into Mission */
 }
-
 .globe-grid{
-  position: absolute;
-  top: -75px;             /* lift the globe up */
-  left: 50%;
-  transform: translateX(-50%);
-  width: 112%;
-  z-index: 1;
-  pointer-events: none;
+  position:absolute;
+  top:-30px;   /* 🔥 adjust this to move globe up/down */
+  left:50%;
+  transform:translateX(-50%);
+  width:110%;
+  z-index:1;
 }
-
 .boxes-flag{
   position: relative;
   width: 100%;
   z-index: 2;
 }
-
 /* Give Mission space so title doesn't collide */
 .mission-section{
-  padding-top: 120px;
+  padding-top: 60px;
 }
