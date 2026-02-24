@@ -209,25 +209,3 @@ img{max-width:100%; height:auto; display:block}
   align-items:center;
   justify-content:center;
 }
-
-.hero-graphic{
-  position: relative;
-  width: 100%;
-  max-width: 620px;
-}
-
-.globe-grid{
-  position: absolute;
-  top: -90px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 115%;
-  z-index: 1;
-  pointer-events: none;
-}
-
-.boxes-flag{
-  position: relative;
-  width: 100%;
-  z-index: 2;
-}
