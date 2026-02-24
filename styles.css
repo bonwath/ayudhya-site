@@ -205,7 +205,13 @@ img{max-width:100%; height:auto; display:block}
   padding-top: 120px;
   position: relative;
 }
-/* ===== HERO LAYERED GRAPHIC (controlled overlap) ===== */
+/* ===== HERO LAYERED LOOK (like your screenshot) ===== */
+
+.section--hero{
+  padding:60px 0 0 0;     /* remove bottom padding */
+  position: relative;
+  overflow: visible;      /* allow overlap */
+}
 
 .hero__visual{
   display:flex;
@@ -216,17 +222,17 @@ img{max-width:100%; height:auto; display:block}
 .hero-graphic{
   position: relative;
   width: 100%;
-  max-width: 480px;     /* size you liked */
-  margin-left: 24px;    /* move a bit right */
-  margin-bottom: -70px; /* overlap into Mission (adjust -40 to -100) */
+  max-width: 480px;       /* the size you want */
+  margin-left: 28px;      /* a bit to the right */
+  margin-bottom: -70px;   /* overlap into Mission */
 }
 
 .globe-grid{
   position: absolute;
-  top: -70px;
+  top: -75px;             /* lift the globe up */
   left: 50%;
   transform: translateX(-50%);
-  width: 110%;
+  width: 112%;
   z-index: 1;
   pointer-events: none;
 }
@@ -235,4 +241,9 @@ img{max-width:100%; height:auto; display:block}
   position: relative;
   width: 100%;
   z-index: 2;
+}
+
+/* Give Mission space so title doesn't collide */
+.mission-section{
+  padding-top: 120px;
 }
