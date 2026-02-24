@@ -74,8 +74,6 @@ img{max-width:100%; height:auto; display:block}
   letter-spacing:.01em;
 }
 
-.hero{display:grid; grid-template-columns: 1.2fr .8fr; gap:26px; align-items:start}
-
 .eyebrow{margin:0 0 8px; color:var(--brand); font-weight:800; letter-spacing:.06em; text-transform:uppercase; font-size:12px}
 .title{
   font-family: "Playfair Display", Georgia, serif;
@@ -193,17 +191,18 @@ img{max-width:100%; height:auto; display:block}
   width: auto;
   object-fit: contain;
 }
-.hero{
-  grid-template-columns: 1.1fr .9fr;
-}
 
 .hero__visual{
   display:flex;
   align-items:center;
   justify-content:center;
+  padding:20px;
 }
 
 .hero-gif{
-  width:95%;
-  transform: translateY(20px);
+  width:100%;
+  max-width:480px;
+  height:auto;
+  object-fit:contain;
+  border-radius:24px;
 }
