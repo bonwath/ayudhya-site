@@ -192,13 +192,6 @@ img{max-width:100%; height:auto; display:block}
   object-fit: contain;
 }
 
-.hero__visual{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:20px;
-}
-
 .mission-section{
   background: linear-gradient(
     to bottom,
@@ -208,4 +201,33 @@ img{max-width:100%; height:auto; display:block}
   border-top: 1px solid rgba(0,0,0,0.05);
   padding-top: 80px;
   position: relative;
+}
+/* ===== HERO LAYERED GRAPHIC ===== */
+
+.hero__visual{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.hero-graphic{
+  position: relative;
+  width: 100%;
+  max-width: 620px;
+}
+
+.globe-grid{
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 115%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.boxes-flag{
+  position: relative;
+  width: 100%;
+  z-index: 2;
 }
