@@ -64,7 +64,11 @@ img{max-width:100%; height:auto; display:block}
 .pill:hover{filter:brightness(1.05)}
 
 .section{padding:58px 0}
-.section--hero{padding:60px 0 20px 0;}
+.section--hero{
+  padding:60px 0 0 0;
+  position: relative;
+  overflow: visible;
+}
 .section--alt{background: rgba(255,255,255,.35); border-top:1px solid rgba(0,0,0,.06); border-bottom:1px solid rgba(0,0,0,.06)}
 
 .section__title{
@@ -110,7 +114,6 @@ img{max-width:100%; height:auto; display:block}
 .btn:hover{filter:brightness(1.05)}
 .btn--ghost{background:transparent; color:var(--brand); box-shadow:none; border:1px solid rgba(200,29,29,.35)}
 
-.hero__visual{position:relative}
 .frame{
   border-radius: 22px;
   border: 1px solid rgba(0,0,0,.08);
@@ -199,16 +202,37 @@ img{max-width:100%; height:auto; display:block}
     rgba(255,255,255,0.75)
   );
   border-top: 1px solid rgba(0,0,0,0.05);
-  padding-top: 80px;
+  padding-top: 120px;
   position: relative;
 }
-/* ===== HERO LAYERED GRAPHIC ===== */
+/* ===== HERO LAYERED GRAPHIC (controlled overlap) ===== */
 
 .hero__visual{
   display:flex;
   align-items:center;
   justify-content:center;
 }
+
 .hero-graphic{
-  margin-left: 24px;   /* move right */
+  position: relative;
+  width: 100%;
+  max-width: 480px;     /* size you liked */
+  margin-left: 24px;    /* move a bit right */
+  margin-bottom: -70px; /* overlap into Mission (adjust -40 to -100) */
+}
+
+.globe-grid{
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.boxes-flag{
+  position: relative;
+  width: 100%;
+  z-index: 2;
 }
