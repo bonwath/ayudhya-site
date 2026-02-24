@@ -37,7 +37,7 @@ img{max-width:100%; height:auto; display:block}
   background: rgba(239,239,233,.72);
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
-.header__inner{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 20px}
+.header__inner{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:8px 20px}
 
 .brand{display:flex; align-items:center; gap:12px}
 .brand__mark{
