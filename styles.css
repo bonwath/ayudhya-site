@@ -217,32 +217,16 @@ img{max-width:100%; height:auto; display:block}
   position: relative;
 }
 
-.mission-section::before{
-  content: "";
-  position: absolute;
-  top: -40px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 120px;
-  height: 4px;
-  border-radius: 999px;
-  background: linear-gradient(
-    90deg,
-    #c81d1d,
-    #ff6b9c
-  );
-  box-shadow: 0 0 20px rgba(200,29,29,0.3);
-}
 .section--hero{
   position: relative;
-  padding-bottom: 120px; /* give space for glow */
+  padding-bottom: 40px; /* reduce space */
 }
 
 /* RED UPWARD GLOW */
 .section--hero::after{
   content: "";
   position: absolute;
-  bottom: -120px;
+  bottom: -60px;
   left: 50%;
   transform: translateX(-50%);
   width: 900px;
@@ -258,4 +242,8 @@ img{max-width:100%; height:auto; display:block}
 
   filter: blur(80px);
   pointer-events: none;
+}
+.hero__visual{
+  position: relative;
+  z-index: 2;
 }
