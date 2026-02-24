@@ -209,3 +209,6 @@ img{max-width:100%; height:auto; display:block}
   align-items:center;
   justify-content:center;
 }
+.hero-graphic{
+  margin-left: 24px;   /* move right */
+}
