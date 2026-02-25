@@ -447,11 +447,10 @@ img{max-width:100%; height:auto; display:block}
   border: 1px solid rgba(0,0,0,.06);
 }
 .header{
-  backdrop-filter: blur(10px);
-  background: rgba(200,29,29,.9);
+  background: #a51616;
   border-bottom: none;
 }
 .pill{
-  background: rgba(255,255,255,.15);
-  color: white;
+  background: white;
+  color: var(--brand);
 }
