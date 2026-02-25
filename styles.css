@@ -247,7 +247,7 @@ img{max-width:100%; height:auto; display:block}
   object-fit:cover;
 }
 .contact__media {
-  min-height: 400px;
+  min-height: 100%;
 }
 
 .contact__media iframe {
