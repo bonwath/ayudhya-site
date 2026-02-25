@@ -45,6 +45,6 @@ document.querySelector(".toggleMore").addEventListener("click", function(){
 
   this.textContent =
     this.textContent.includes("More")
-      ? "View Our Track Record & Supplied Items ←"
-      : "View Our Track Record & Supplied Items →";
+      ? "View Our Track Record & Supplied Items"
+      : "View Our Track Record & Supplied Items";
 });
