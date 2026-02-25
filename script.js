@@ -40,3 +40,11 @@ document.querySelectorAll(".toggleBtn").forEach(button => {
     target.classList.toggle("active");
   });
 });
+document.querySelector(".toggleMore").addEventListener("click", function(){
+  document.querySelector(".moreContent").classList.toggle("active");
+
+  this.textContent =
+    this.textContent.includes("More")
+      ? "View Less ←"
+      : "View More →";
+});
