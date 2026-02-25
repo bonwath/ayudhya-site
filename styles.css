@@ -446,3 +446,12 @@ img{max-width:100%; height:auto; display:block}
 .morePlaceholder{
   border: 1px solid rgba(0,0,0,.06);
 }
+.header{
+  backdrop-filter: blur(10px);
+  background: rgba(200,29,29,.9);
+  border-bottom: none;
+}
+.pill{
+  background: rgba(255,255,255,.15);
+  color: white;
+}
