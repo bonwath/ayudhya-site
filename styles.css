@@ -446,11 +446,3 @@ img{max-width:100%; height:auto; display:block}
 .morePlaceholder{
   border: 1px solid rgba(0,0,0,.06);
 }
-.header{
-  background: #a51616;
-  border-bottom: none;
-}
-.pill{
-  background: white;
-  color: var(--brand);
-}
