@@ -409,3 +409,38 @@ img{max-width:100%; height:auto; display:block}
   color:var(--muted);
   font-style:italic;
 }
+/* ===== Professional View More Placement ===== */
+
+.sliderAction{
+  margin-top: 45px;
+  text-align: center;
+}
+
+.sliderAction .btn{
+  padding: 12px 28px;
+  border-radius: 14px; /* same as Get in touch */
+  font-size: 14px;
+}
+
+.moreContent{
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ease;
+  margin-top: 30px;
+}
+
+.moreContent.active{
+  max-height: 600px;
+}
+
+.morePlaceholder{
+  background: rgba(255,255,255,.9);
+  border-radius: 18px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.08);
+  margin: 0 auto;
+  max-width: 900px;
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+}
