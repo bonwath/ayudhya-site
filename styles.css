@@ -308,3 +308,32 @@ img{max-width:100%; height:auto; display:block}
     grid-template-columns: 1fr;
   }
 }
+.toggleBtn{
+  background:none;
+  border:none;
+  color:var(--brand);
+  font-weight:800;
+  cursor:pointer;
+  padding:0;
+  margin-top:8px;
+}
+
+.toggleBtn:hover{
+  text-decoration:underline;
+}
+
+.toggleContent{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .4s ease;
+  margin-top:10px;
+}
+
+.toggleContent ul{
+  padding-left:18px;
+  line-height:1.6;
+}
+
+.toggleContent.active{
+  max-height:500px;
+}
