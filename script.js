@@ -34,3 +34,9 @@
 
   io.observe(el);
 })();
+document.querySelectorAll(".toggleBtn").forEach(button => {
+  button.addEventListener("click", () => {
+    const target = document.getElementById(button.dataset.target);
+    target.classList.toggle("active");
+  });
+});
