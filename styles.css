@@ -389,3 +389,23 @@ img{max-width:100%; height:auto; display:block}
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+.moreContent{
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .5s ease;
+  margin-top:20px;
+}
+
+.moreContent.active{
+  max-height:400px;
+}
+
+.morePlaceholder{
+  background: rgba(255,255,255,.85);
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
+  text-align:center;
+  color:var(--muted);
+  font-style:italic;
+}
