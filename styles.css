@@ -433,7 +433,6 @@ img{max-width:100%; height:auto; display:block}
   border: 1px solid rgba(0,0,0,.06);
 }
 /* ===== CORE CAPABILITIES ===== */
-
 .capGrid{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
@@ -441,31 +440,66 @@ img{max-width:100%; height:auto; display:block}
   margin-top:30px;
 }
 
-.capItem{
-  background: rgba(255,255,255,.75);
+.capCard{
+  background: rgba(255,255,255,.8);
   border:1px solid rgba(0,0,0,.06);
   border-radius: var(--radius);
-  padding:22px;
   box-shadow: 0 12px 30px rgba(0,0,0,.08);
-  transition: transform .3s ease, box-shadow .3s ease;
+  overflow:hidden;
+  transition: box-shadow .3s ease;
 }
 
-.capItem:hover{
-  transform: translateY(-6px);
-  box-shadow: 0 20px 45px rgba(0,0,0,.12);
+.capCard.active{
+  box-shadow: 0 18px 45px rgba(0,0,0,.12);
 }
 
-.capItem h3{
-  margin:0 0 10px;
+.capHeader{
+  width:100%;
+  background:none;
+  border:none;
+  padding:20px 22px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  cursor:pointer;
   font-family:"Playfair Display", Georgia, serif;
-  font-size:20px;
+  font-size:18px;
+  font-weight:600;
   color:var(--brand);
 }
 
-.capItem p{
-  margin:0;
+.capIcon{
+  font-size:22px;
+  font-weight:700;
+  transition: transform .3s ease;
+}
+
+.capCard.active .capIcon{
+  transform: rotate(45deg); /* + becomes × */
+}
+
+.capContent{
+  max-height:0;
+  overflow:hidden;
+  transition: max-height .4s ease;
+  padding: 0 22px;
+}
+
+.capCard.active .capContent{
+  max-height:400px;
+  padding-bottom:20px;
+}
+
+.capContent p{
+  margin:0 0 12px;
   line-height:1.6;
   color:#222;
+}
+
+.capContent ul{
+  margin:0;
+  padding-left:18px;
+  line-height:1.6;
 }
 .card,
 .service,
