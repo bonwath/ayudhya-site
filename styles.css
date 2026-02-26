@@ -591,3 +591,15 @@ img{max-width:100%; height:auto; display:block}
   margin-bottom: 6px;
   line-height: 1.6;
 }
+.card-subtitle {
+  margin: 22px 0 12px;   /* more space above and below */
+  color: var(--brand);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card .capParagraph {
+  margin-top: 6px;
+  line-height: 1.75;     /* increase from 1.6 */
+  font-size: 16px;
+}
