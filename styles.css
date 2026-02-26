@@ -227,7 +227,7 @@ img{max-width:100%; height:auto; display:block}
   width: 100%;
   max-width: 480px;       /* the size you want */
   margin-left: 28px;      /* a bit to the right */
-  margin-bottom: -70px;   /* overlap into Mission */
+  margin-bottom: -40px;   /* overlap into Mission */
 }
 .globe-grid{
   position:absolute;
@@ -466,4 +466,21 @@ img{max-width:100%; height:auto; display:block}
   margin:0;
   line-height:1.6;
   color:#222;
+}
+.card,
+.service,
+.panel,
+.recordCard,
+.capItem,
+.contact__card,
+.iconCard {
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.card:hover,
+.service:hover,
+.panel:hover,
+.contact__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.10);
 }
