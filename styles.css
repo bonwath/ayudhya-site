@@ -535,4 +535,14 @@ img{max-width:100%; height:auto; display:block}
   padding-right: 0px;
   max-width: 1000px;
 }
+.view-more {
+  color: var(--brand);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 6px;
+  font-size: 14px;
+}
 
+.view-more:hover {
+  text-decoration: underline;
+}
