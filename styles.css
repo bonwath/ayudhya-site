@@ -82,8 +82,10 @@ img{max-width:100%; height:auto; display:block}
 .title{
   font-family: "Playfair Display", Georgia, serif;
   margin:0 0 12px;
-  font-size: 46px;
+  font-size: 54px;
   line-height:1.06;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 .lead{margin:0 0 18px; color:#1f1f1f; line-height:1.6}
 
