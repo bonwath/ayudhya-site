@@ -497,5 +497,5 @@ img{max-width:100%; height:auto; display:block}
 
 .capabilities .section__title {
   margin-bottom: 28px;
-  padding-left:10px;
+  padding-left:-10px;
 }
