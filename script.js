@@ -48,3 +48,16 @@ document.querySelector(".toggleMore").addEventListener("click", function(){
       ? "View Our Track Record & Supplied Items"
       : "View Our Track Record & Supplied Items";
 });
+document.querySelectorAll('.capHeader').forEach(header => {
+  header.addEventListener('click', () => {
+    const card = header.parentElement;
+
+    document.querySelectorAll('.capCard').forEach(item => {
+      if(item !== card){
+        item.classList.remove('active');
+      }
+    });
+
+    card.classList.toggle('active');
+  });
+});
