@@ -494,3 +494,7 @@ img{max-width:100%; height:auto; display:block}
 .capabilities .section__title {
   margin-bottom: 28px;
 }
+/* Fix hero alignment consistency */
+.hero__copy {
+  padding-left: 0;
+}
