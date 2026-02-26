@@ -546,3 +546,19 @@ img{max-width:100%; height:auto; display:block}
 .view-more:hover {
   text-decoration: underline;
 }
+.card-subtitle {
+  margin: 20px 0 8px;
+  color: var(--brand);
+  font-size: 18px;
+  font-weight: 700;
+}
+.toggleContent ul {
+  margin: 8px 0 0;
+  padding-left: 20px;
+}
+
+.toggleContent li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+  color: #202020;
+}
