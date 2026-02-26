@@ -519,6 +519,7 @@ img{max-width:100%; height:auto; display:block}
   margin-top: 28px;
 }
 .capabilities {
+  padding-left: 0px;
   padding-top: 20px;
   padding-bottom: 60px;
   margin-bottom: 18px;
