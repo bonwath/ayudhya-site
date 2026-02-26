@@ -429,3 +429,12 @@ img{max-width:100%; height:auto; display:block}
 .morePlaceholder{
   border: 1px solid rgba(0,0,0,.06);
 }
+.card ul {
+  padding-left: 18px;
+  margin: 10px 0 0 0;
+}
+
+.card li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
