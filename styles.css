@@ -490,13 +490,13 @@ img{max-width:100%; height:auto; display:block}
 /* ===== CORE CAPABILITIES SPACING FIX ===== */
 
 .capabilities {
-  padding-top:10px;
+  padding-top:30px;
   padding-bottom: 60px;
   margin-top: -10px;
 }
 
 .capabilities .section__title {
-padding-top:10px;
+padding-top:30px;
 padding-bottom: 60px;
 margin-top: -10px;
 }
