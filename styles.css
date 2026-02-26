@@ -8,7 +8,7 @@
   --ring: rgba(200,29,29,.18);
   --shadow: 0 14px 40px rgba(0,0,0,.12);
   --radius: 18px;
-  --max: 1100px;
+  --max: 1000px;
 }
 
 *{box-sizing:border-box}
@@ -531,5 +531,7 @@ img{max-width:100%; height:auto; display:block}
   padding-left: 0;
 }
 .capabilities .container {
-  padding-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 950px;
 }
