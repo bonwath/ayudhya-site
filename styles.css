@@ -89,34 +89,25 @@ img{max-width:100%; height:auto; display:block}
   letter-spacing: -0.5px;
 }
 .lead{margin:0 0 18px; color:#1f1f1f; line-height:1.6}
-.card {
-  background: rgba(255,255,255,.78);
+.card{
+  background: rgba(255,255,255,.75);
   border: 1px solid rgba(0,0,0,.06);
   border-radius: var(--radius);
-  padding: 28px 32px;
-  box-shadow: 0 14px 34px rgba(0,0,0,.08);
-  margin: 18px 0;
-  line-height: 1.75;
+  padding: 16px 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.08);
+  margin: 12px 0;
 }
-.card h2 {
-  margin: 0 0 16px;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--brand);
+
+.card h2{
+  margin:0 0 8px;
+  color:var(--brand);
+  font-size:18px;
 }
-.card h3 {
-  margin: 22px 0 14px;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--brand);
-}
-.card p {
-  margin: 0 0 18px;
-  font-size: 16px;
-  color: #1f1f1f;
-}
-.card p:last-child {
-  margin-bottom: 0;
+
+.card p{
+  margin:0;
+  color:#202020;
+  line-height:1.6;
 }
 .hero__cta{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
 
