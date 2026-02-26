@@ -107,6 +107,15 @@ img{max-width:100%; height:auto; display:block}
   color:#202020;
   line-height:1.6;
 }
+.card {
+  padding: 20px 24px; /* even numbers */
+}
+
+.card p {
+  margin: 0 0 16px;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
 .hero__cta{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
 
 .btn{
