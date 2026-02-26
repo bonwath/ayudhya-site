@@ -593,6 +593,6 @@ img{max-width:100%; height:auto; display:block}
 
 .card .capParagraph {
   margin-top: 6px;
-  line-height: 1.75;     /* increase from 1.6 */
+  line-height: 1.6;     /* increase from 1.6 */
   font-size: 16px;
 }
