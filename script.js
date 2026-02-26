@@ -54,3 +54,11 @@ document.querySelectorAll('.capHeader').forEach(header => {
     card.classList.toggle('active');
   });
 });
+document.querySelector(".toggleBtn").addEventListener("click", function() {
+  const content = document.querySelector(".toggleContent");
+  content.classList.toggle("active");
+
+  this.textContent = content.classList.contains("active")
+    ? "View less ←"
+    : "View more →";
+});
