@@ -89,33 +89,47 @@ img{max-width:100%; height:auto; display:block}
   letter-spacing: -0.5px;
 }
 .lead{margin:0 0 18px; color:#1f1f1f; line-height:1.6}
-.card{
-  background: rgba(255,255,255,.75);
+.card {
+  background: rgba(255,255,255,.78);
   border: 1px solid rgba(0,0,0,.06);
   border-radius: var(--radius);
-  padding: 16px 16px;
-  box-shadow: 0 12px 30px rgba(0,0,0,.08);
-  margin: 12px 0;
-}
-.card h2{
-  margin:0 0 8px;
-  color:var(--brand);
-  font-size:18px;
-}
-.card p{
-  margin:0;
-  color:#202020;
-  line-height:1.6;
-}
-.card {
-  padding: 20px 24px; /* even numbers */
+  padding: 26px 30px;
+  box-shadow: 0 14px 34px rgba(0,0,0,.08);
+  margin: 18px 0;
+  line-height: 1.75;
 }
 
-.card p {
+/* Primary heading */
+.card h2 {
   margin: 0 0 16px;
-  line-height: 1.7;
-  text-rendering: optimizeLegibility;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--brand);
 }
+
+/* Section divider + secondary heading */
+.card h3 {
+  margin: 34px 0 16px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0,0,0,.06);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+/* Paragraph spacing */
+.card p {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: #1f1f1f;
+  line-height: 1.75;
+}
+
+/* Remove extra gap only at very bottom */
+.card p:last-child {
+  margin-bottom: 0;
+}
+
 .hero__cta{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
 
 .btn{
