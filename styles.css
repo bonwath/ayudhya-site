@@ -467,17 +467,14 @@ img{max-width:100%; height:auto; display:block}
   font-weight:600;
   color:var(--brand);
 }
-
 .capIcon{
-  font-size:22px;
-  font-weight:700;
+  font-size:16px;
   transition: transform .3s ease;
+  display:inline-block;
 }
-
 .capCard.active .capIcon{
-  transform: rotate(45deg); /* + becomes × */
+  transform: rotate(90deg);
 }
-
 .capContent{
   max-height:0;
   overflow:hidden;
