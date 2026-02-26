@@ -529,9 +529,12 @@ img{max-width:100%; height:auto; display:block}
 /* Fix hero alignment consistency */
 .hero__copy {
   padding-left: 0;
+  margin-left: 0;
 }
 .capabilities .container {
-  padding-left: 0px;
   padding-right: 0px;
   max-width: 950px;
+}
+.container {
+  outline: 1px solid red;
 }
