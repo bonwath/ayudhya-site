@@ -494,8 +494,3 @@ img{max-width:100%; height:auto; display:block}
 .capabilities .section__title {
   margin-bottom: 28px;
 }
-.hero {
-  display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 40px;
-}
