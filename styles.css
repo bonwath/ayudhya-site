@@ -17,9 +17,9 @@ body{
   margin:0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color:var(--ink);
-  background: radial-gradient(1000px 700px at 85% -10%, rgba(200,29,29,.12), transparent 55%),
-  radial-gradient(800px 600px at 0% 40%, rgba(200,29,29,.08), transparent 60%),
-  #f4f2ec;
+  background: radial-gradient(1200px 800px at 70% 0%, rgba(255,107,156,.18), transparent 60%),
+            radial-gradient(900px 700px at 0% 30%, rgba(200,29,29,.12), transparent 55%),
+            var(--bg);
 }
 
 img{max-width:100%; height:auto; display:block}
@@ -126,7 +126,7 @@ img{max-width:100%; height:auto; display:block}
   border-radius: var(--radius);
   overflow:hidden;
   border: 1px solid rgba(0,0,0,.06);
-  background: rgba(255,255,255,.7);
+  background: rgba(255,255,255,.75);
   box-shadow: 0 12px 30px rgba(0,0,0,.08);
 }
 .panel__media{aspect-ratio: 16 / 10; overflow:hidden}
@@ -267,7 +267,7 @@ img{max-width:100%; height:auto; display:block}
 }
 
 .recordCard{
-  background: rgba(255,255,255,.9);
+  background: rgba(255,255,255,.75);
   border:1px solid rgba(0,0,0,.06);
   border-radius: var(--radius);
   padding:22px;
@@ -358,7 +358,7 @@ img{max-width:100%; height:auto; display:block}
   margin-right: 30px;
   text-align: center;
   padding: 20px;
-  background: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.75);
   border-radius: 18px;
   box-shadow: 0 12px 28px rgba(0,0,0,.08);
   transition: transform .3s ease;
@@ -439,7 +439,7 @@ img{max-width:100%; height:auto; display:block}
 }
 
 .capItem{
-  background: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.75);
   border:1px solid rgba(0,0,0,.06);
   border-radius: var(--radius);
   padding:22px;
