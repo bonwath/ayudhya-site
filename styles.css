@@ -487,3 +487,13 @@ img{max-width:100%; height:auto; display:block}
 .hero-cta {
   margin-top: 28px;
 }
+/* ===== CORE CAPABILITIES SPACING FIX ===== */
+
+.capabilities {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.capabilities .section__title {
+  margin-bottom: 36px;
+}
