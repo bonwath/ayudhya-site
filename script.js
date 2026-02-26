@@ -51,9 +51,6 @@ document.querySelector(".toggleMore").addEventListener("click", function(){
 document.querySelectorAll('.capHeader').forEach(header => {
   header.addEventListener('click', () => {
     const card = header.parentElement;
-document.querySelectorAll('.capHeader').forEach(header => {
-  header.addEventListener('click', () => {
-    const card = header.parentElement;
     card.classList.toggle('active');
   });
 });
