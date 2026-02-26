@@ -531,7 +531,7 @@ img{max-width:100%; height:auto; display:block}
   padding-left: 0;
 }
 .capabilities .container {
-  padding-left: 20px;
+  padding-left: 0px;
   padding-right: 20px;
   max-width: 950px;
 }
