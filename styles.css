@@ -519,7 +519,6 @@ img{max-width:100%; height:auto; display:block}
   margin-top: 28px;
 }
 .capabilities {
-  padding-left: 0px;
   padding-top: 20px;
   padding-bottom: 60px;
   margin-bottom: 18px;
@@ -533,6 +532,6 @@ img{max-width:100%; height:auto; display:block}
 }
 .capabilities .container {
   padding-left: 0px;
-  padding-right: 20px;
+  padding-right: 0px;
   max-width: 950px;
 }
