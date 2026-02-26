@@ -59,6 +59,6 @@ document.querySelector(".toggleBtn").addEventListener("click", function() {
   content.classList.toggle("active");
 
   this.textContent = content.classList.contains("active")
-    ? "View less ←"
-    : "View more →";
+    ? "View less"
+    : "View more";
 });
