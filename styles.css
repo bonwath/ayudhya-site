@@ -519,8 +519,9 @@ img{max-width:100%; height:auto; display:block}
   margin-top: 28px;
 }
 .capabilities {
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 60px;
+  margin-bottom: 18px;
 }
 .capabilities .section__title {
   margin-bottom: 28px;
