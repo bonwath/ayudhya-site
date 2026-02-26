@@ -43,7 +43,7 @@ img{max-width:100%; height:auto; display:block}
 .brand__mark{
   width:42px; height:42px; border-radius:14px;
   display:grid; place-items:center;
-  background: var(--brand);
+  background: linear-gradient(135deg, var(--brand), var(--brand2));
   color:white; font-weight:800; letter-spacing:.02em;
   box-shadow: 0 10px 22px rgba(200,29,29,.25);
 }
