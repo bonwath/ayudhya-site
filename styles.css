@@ -529,3 +529,6 @@ img{max-width:100%; height:auto; display:block}
 .hero__copy {
   padding-left: 0;
 }
+.capabilities .container {
+  padding-left: 0;
+}
